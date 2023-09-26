@@ -1,0 +1,23 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	font-family:sans-serif;
+}
+.navmenu{
+	font-size: 20px;
+	color: white;
+	font-weight: bolder;
+}
+.navmenu:hover{
+	font-size: 25px;
+	color:lightblue;
+	font-weight: bolder;
+	transition-duration: 1s;
+}
+.logo{
+
+	font-size: 25px;
+	font-weight: bolder;
+	font-variant:small-caps;
+	color: whitesmoke;
+}
