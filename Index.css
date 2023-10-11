@@ -7,12 +7,8 @@
 	font-size: 20px;
 	color: white;
 	font-weight: bolder;
-}
-.navmenu:hover{
-	font-size: 25px;
-	color:lightblue;
-	font-weight: bolder;
-	transition-duration: 1s;
+	/*position:fixed;
+	top:0;*/
 }
 .logo{
 
@@ -20,4 +16,44 @@
 	font-weight: bolder;
 	font-variant:small-caps;
 	color: whitesmoke;
+}
+.nav{
+	position:fixed;
+	top:0;
+	left:0;
+	right:0 !important;
+	font-size: 20px;
+	height:30px;
+	width:100%;
+}
+.name{
+	font-size:45px;
+	color:purple;
+	text-align:center;
+	font-weight:bolder;
+
+}
+.two th img{
+  height:500px;
+  width:750px;
+}
+.two th p{
+	text-align:center;
+	font-size:35px;
+}
+.two{
+	right:3;
+	align:center;
+	margin-right:5px;
+	background-color:ghostwhite;
+
+}
+.two th input{
+	color:white;
+	background-color:midnightblue;
+	font-weight:bolder;
+	font-size:30px;
+	border:none;
+	border-radius:3px;
+	text-align:center;
 }
